@@ -1,0 +1,11 @@
+# Exclude build artifacts
+*.tsx linguist-detectable
+
+src/**/*.ts linguist-detectable
+examples/site/*.html linguist-vendored
+
+*.png binary
+build/* linguist-vendored
+vendor/* linguist-vendored
+examples/site/* linguist-vendored
+*.jpeg binary
