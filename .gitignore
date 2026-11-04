@@ -1,0 +1,5 @@
+.next/
+*.log
+build/
+*.tgz
+.DS_Store
